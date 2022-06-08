@@ -43,8 +43,8 @@ INSTALLED_APPS = [
     'rest_framework',
     # 'API.apps.Apiconfig',
     'API',
-    'taggit'
-    'gunicorn'
+    'taggit',
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
