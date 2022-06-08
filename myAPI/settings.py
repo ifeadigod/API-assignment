@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'API',
     'taggit',
     'gunicorn',
+    '_tkinter',
 ]
 
 MIDDLEWARE = [
