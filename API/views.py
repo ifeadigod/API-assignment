@@ -7,7 +7,7 @@ from rest_framework.response import Response
 from .serializers import TaskSerializer
 from .models import Task
 from API import serializers
-from _tkinter import *
+
 # Create your views here.
 
 @api_view(['GET'])

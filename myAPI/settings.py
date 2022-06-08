@@ -10,9 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os
-import tkinter
-import _tkinter
-
 from pathlib import Path
 from dotenv import load_dotenv,find_dotenv
 
@@ -48,7 +45,6 @@ INSTALLED_APPS = [
     'API',
     'taggit',
     'gunicorn',
-    '_tkinter',
 ]
 
 MIDDLEWARE = [
@@ -138,15 +134,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
-HEIGHT = 700
-WIDTH = 800
-
-root = tkinter.Tk()
-
-canvas = tkinter.Canvas(root, height = HEIGHT, width=WIDTH)
-canvas.pack()
-
-frame = tkinter.Frame(root, bg='red')
-frame.pack()
-
-root.mainloop()
